@@ -1,0 +1,32 @@
+tcs-7-8
+
+Optimal resizable arrays
+>最优可伸缩数组
+>optimal - 最优
+>resizable arrays - 可伸缩数组/动态数组
+
+论文核心（解决的问题）：
+做一个数组
+- 能够O(1)访问
+- 能够动态增长
+- 但是把空着但是占据的内存压到极小
+
+翻译：
+sufficient
+- 足够的
+shrink
+- 收缩
+distinguish
+- 区分，辨别
+amortized time
+- 瘫痪时间
+- 均摊到每一次操作的时间
+retrieved
+- 被取出
+throughout
+- 贯穿，在整个其间
+argument
+- 论证，理由
+affirmatively
+肯定
+
