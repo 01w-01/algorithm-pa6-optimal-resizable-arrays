@@ -26,7 +26,7 @@
 |---|------|----------|--------------------------------------|
 | ✅A1 | 撰写 §4 下界证明：Theorem 4.1 抽屉原理、Theorem 4.2 s(N)·t(N) ≥ N 完整推导、Theorem 4.3 代入 r 的推论 | `read 3-5.md` | §4 |
 | ✅A2 | 撰写 §5 r=3 特例构造：两级数据块结构、Grow/Shrink 操作流程、不变量与正确性论证 | `read 3-5.md` | §5 |
-| A3 | 撰写 §6 一般 r 级构造：B 进制计数器模拟、Combine/Split/Rebuild 操作的完整描述、Credit 分析的每一步（Combine 消耗元素自身 credit、Split 消耗 level 积累 credit、Rebuild 消耗全局 credit） | `read 6-10.md` | §6 |
+| ✅A3 | 撰写 §6 一般 r 级构造：B 进制计数器模拟、Combine/Split/Rebuild 操作的完整描述、Credit 分析的每一步（Combine 消耗元素自身 credit、Split 消耗 level 积累 credit、Rebuild 消耗全局 credit） | `read 6-10.md` | §6 |
 | A4 | 撰写 §7 空间优化变换：将 O(rN^{1/r}) 压到 O(N^{1/r}) 的分块技巧 | `read 6-10.md` | §7 |
 | A5 | 撰写 §8 Growth Game 精确解：博弈定义 → ℓ=0 归约 → 递推公式 → 定理 8.6 闭式解 → 二项式计数器的构造 | `read 6-10.md` | §8 |
 | A6 | 撰写 §9 下界应用：从 Growth Game 到数据结构 Ω(r) amortized 下界（Theorem 9.1）的完整归约链条 | `read 6-10.md` | §9 |
