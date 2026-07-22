@@ -38,7 +38,7 @@
 |---|------|----------|----------------------|
 | ✅B1 | 撰写 §1 摘要与总体评价 | `笔记.md` §1-2 | `review/main.md` §1 |
 | ✅B2 | 撰写 §2 问题定义与重要性：ADT 定义、内存模型、(s(N),t(N))-实现的形式化定义、为什么这个问题重要 | `笔记.md` §2 + `ai-logs/Resizable Arrays 背景知识.md` | `review/main.md` §2 |
-| B3 | 撰写 §3 相关工作：整理倍增法→HAT→Brodnik→Bille et al.→Goodrich & Kloss 的发展脉络，用对比表格呈现各方案的 空间/时间/临时空间/worst-case 特性 | `笔记.md` §3 + `ai-logs/Resizable Arrays 背景知识.md` | `review/main.md` §3 |
+| ✅B3 | 撰写 §3 相关工作：整理倍增法→HAT→Brodnik→Bille et al.→Goodrich & Kloss 的发展脉络，用对比表格呈现各方案的 空间/时间/临时空间/worst-case 特性 | `笔记.md` §3 + `ai-logs/Resizable Arrays 背景知识.md` | `review/main.md` §3 |
 | B4 | 补充论文发表后的后续进展：`tzarrays` crate、`optarray` crate、OCaml `varray`，附实际 benchmark 数据 | 自行调研 | `review/main.md` §3.4 |
 | B5 | 整理正式引用列表：所有引用的论文、crate、教材，统一格式 | 从全部笔记中提取 | `review/references.md` |
 | B6 | 撰写局限性与开放问题、总结 | `笔记.md` §10 | `review/main.md` §12-13 |
