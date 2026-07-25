@@ -43,7 +43,7 @@
 | ✅B5 | 整理正式引用列表：所有引用的论文、crate、教材，统一格式 | 从全部笔记中提取 | `review/references.md` |
 | ✅B6 | 撰写局限性与开放问题、总结（新架构：第9章 + 第10章） | `笔记.md` §10 | 第9章 + 第10章 |
 | ✅B7 | 撰写成员贡献说明：具体列出每人做了什么 | — | `review/contributions.md` |
-| B8 | 统稿：合并 A1-A7 和 B1-B6 的全部章节 → 统一术语 → 修正笔误 → 确保可读性 | — | `review/main.md` 终稿 |
+| ✅B8 | 统稿：合并 A1-A7 和 B1-B6 的全部章节 → 统一术语 → 修正笔误 → 确保可读性 | — | `review/main.md` 终稿 |
 
 ---
 
@@ -52,11 +52,13 @@
 1. **所有产出直接写入 `review/` 目录，提交到 `main` 分支**——不允许留在个人文件夹
 2. **每完成一个任务就 commit**，message 格式：`review: <节号> <简述> (<作者>)`，确保 `git blame` 可归属
 3. **统一术语**（开工前两人对齐）：
-   - resize → 调整大小
-   - amortized → 均摊
-   - worst-case → 最坏情况
-   - grow/shrink → 扩容/缩容
-   - storage/temporary space → 存储空间/临时空间
+   - 正文中的技术术语以英文为主；首次出现时可采用“英文（中文说明）”的形式，后文保持英文，避免在中英文之间反复切换。
+   - `resize`（调整大小）
+   - `amortized`（均摊）
+   - `worst-case`（最坏情况）
+   - `Grow` / `Shrink`（末尾增加 / 删除元素）
+   - `Storage Space` / `Temporary Space`（稳定状态空间 / 调整过程中的临时空间）
+   - `Access`、`Combine`、`Split`、`Rebuild`、`credit`、`large block`、`small block` 等术语保留英文。
 4. **A 写完后 B 统稿**：B 的 B8 依赖 A1-A7 全部完成
 5. **停止往 `ai-logs/` 和 `process/` 新增任何翻译/资料文件**
 
