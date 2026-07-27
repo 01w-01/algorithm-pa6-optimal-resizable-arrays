@@ -1,4 +1,4 @@
-#  — 统一 Review
+# Optimal Resizable Arrays — 统一 Review
 
 > 论文：Optimal Resizable Arrays (Tarjan & Zwick, 2024)
 > 仓库：[algorithm-pa6-optimal-resizable-arrays](https://github.com/01w-01/algorithm-pa6-optimal-resizable-arrays)
